@@ -809,3 +809,23 @@ section {
     font-size: 4rem;
   }
 }/*# sourceMappingURL=styles.css.map */
+
+.send-btn {
+    padding: 12px 25px;
+    background: #007bff; /* blue */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: 0.3s ease;
+    margin-top: 15px;
+    display: inline-block;
+}
+
+.send-btn:hover {
+    background: #0056d6; /* darker blue */
+    transform: translateY(-3px);
+    box-shadow: 0 6px 15px rgba(0, 120, 255, 0.4);
+}
